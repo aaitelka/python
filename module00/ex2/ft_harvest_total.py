@@ -1,5 +1,5 @@
 def ft_harvest_total():
-    weight = 0
-    for i in range(3):
-        weight += int(input(f"Day {i + 1} harvest: "))
+    weight = int(input("Day 1 harvest: "))
+    weight += int(input("Day 2 harvest: "))
+    weight += int(input("Day 3 harvest: "))
     print(f"Total harvest: {weight}")
